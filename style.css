@@ -1,0 +1,80 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+:root {
+  --colortext: white;
+  --colorback: black;
+  --colorGreen: #33ee33;
+}
+
+body {
+  background-color: var(--colorback);
+  color: white;
+}
+
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headerspan {
+  color: var(--colorGreen);
+}
+
+.headerone {
+  font-size: 60px;
+}
+
+.container {
+  height: 100%;
+}
+
+.morfeusCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+canvas {
+  display: block;
+  height: 465px;
+  width: 422px;
+  border-radius: 45px;
+}
+
+.morfeus {
+  position: absolute;
+}
+
+.content {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnJoin {
+  text-align: center;
+  margin-top: 5px;
+  font-size: xx-large;
+  width: 150px;
+  border: none;
+  background-color: #eff1ef;
+  color: var(--colorback);
+  border-radius: 10px;
+}
+
+.btnJoin:hover {
+  color: var(--colorGreen);
+  background-color: var(--colorback);
+}
